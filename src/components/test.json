@@ -1,0 +1,4 @@
+const { loading, visibleData } = useSelector((state) => state);
+  const data = useSelector((state) => state);
+console.log("test data",visibleData) 
+// keyExtractor={(item, index) => index.toString()}
